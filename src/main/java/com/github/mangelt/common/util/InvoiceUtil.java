@@ -2,6 +2,7 @@ package com.github.mangelt.common.util;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
@@ -46,7 +47,7 @@ public class InvoiceUtil {
 		} catch (IOException e) {
 			log.error("There was an error to read the file: {}" , compressedFile.getName());
 		}
-		return null;
+		return Collections.emptyList();
 	}
 	
 	public File createTmpFile(String fileName) throws IOException {

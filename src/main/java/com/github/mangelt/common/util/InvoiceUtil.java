@@ -21,7 +21,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class InvoiceUtil {
 
-	public List<File> decompress(@NonNull File compressedFile, Optional<Consumer<String>> callbackError) {
+	public List<File> decompress(@NonNull File compressedFile) {
 		try (ZipFile zipFile = new ZipFile(compressedFile)) {
 
 			return zipFile.stream()
@@ -37,8 +37,6 @@ public class InvoiceUtil {
 						} catch (Exception e) {
 							log.error("Something strange happened to get the File: {}" , zipEntry.getName());
 							log.error("ERROR CLASS: {} ERROR CAUSE: {}" , e.getClass(), e.getCause());
-							if(callbackError.isPresent())
-								callbackError.get().accept(zipEntry.getName());
 							return Stream.empty();
 						}
 					})

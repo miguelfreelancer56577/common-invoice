@@ -2,6 +2,7 @@ package com.github.mangelt.common.util;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
@@ -53,5 +54,30 @@ public class InvoiceUtil {
 		String fileExtension = "."+FilenameUtils.getExtension(fileName);
 		return File.createTempFile(baseName, fileExtension);
 	}
+	
+	public Optional<File> byteArrayToFile(@NonNull byte[] byteArray) {
+		Optional<File> optFile = Optional.empty();
+		try {
+			File tmpFile = createTmpFile("zip_file.zip");
+			FileUtils.writeByteArrayToFile(tmpFile, byteArray);
+			optFile = Optional.of(tmpFile);
+		} catch (IOException e) {
+			log.error("There was an error to write the array into the Files: \n{}", e.getMessage());
+		}
+		return optFile;
+	}	
+	
+	public Optional<byte[]> fileToByteArray(@NonNull File file) {
+		Optional<byte[]> optByteArray = Optional.empty();
+			byte[] bytes;
+			try {
+				bytes = Files.readAllBytes(file.toPath());
+				optByteArray = Optional.of(bytes);
+			} catch (IOException e) {
+				log.error("There was an error to read the bytes of the file: \n{}", e.getMessage());
+			}
+			
+		return optByteArray;
+	}	
 	
 }

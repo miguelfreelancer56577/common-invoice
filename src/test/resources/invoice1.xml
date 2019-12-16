@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Fecha="2019-09-02T10:02:42" Moneda="MXN" TipoCambio="1" SubTotal="1166.91" Total="1296.00" FormaPago="04" CondicionesDePago="Inmediato" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="05348" NoCertificado="00001000000406092473" Serie="IWADT" Folio="463662" Certificado="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" Sello="Adz7hj8D3b2Oa5Q805QaZa7iH2sI4+Y+mrmjVjBffFtRVinlmcWcOM22SnargTkaF2kOmmbz/yfLPKUmoiMY3mmEHr63J4lXMnoG911j57EMwQGkjlD+lwNXRcrK580aPKUOMPRJMOgQB/p1z3+uSi90NPP56t6jcZnPtWKeP24SHgMhRXzZWFqZISsG9fl6uL0F+lnJEhpAhY3yH6e3W2HYz/LWSr30ccPSwyoZ9bScP2J/XE3zbMHIkWJD0jZgYMpjs9s3UPGCMOMtCqcEN/UMFDm4jddK5z0fe6EGt76fs3LU1T2WY9xBbChmp0XtTkm5ZqcfBq+5no+3FDDpwg=="
+	xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cfdi:Emisor Rfc="NWM9709244W4" Nombre="Nueva Wal Mart de México, S. de R. L. de C.V." RegimenFiscal="601" />
+	<cfdi:Receptor Rfc="TORM8908224F4" Nombre="MIGUEL ANGEL TORRES RENTERIA" UsoCFDI="G03" />
+	<cfdi:Conceptos>
+		<cfdi:Concepto ClaveProdServ="50101717" NoIdentificacion="000750104720105" Cantidad="2" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="NUEZ" ValorUnitario="144.00" Importe="288.00">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="288" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.000000" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+		<cfdi:Concepto ClaveProdServ="90101500" NoIdentificacion="000750179167022" Cantidad="1" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="ALMENDRA" ValorUnitario="37.50" Importe="37.50">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="37.5" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.000000" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+		<cfdi:Concepto ClaveProdServ="53131606" NoIdentificacion="000750954607444" Cantidad="1" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="SS SPRAY" ValorUnitario="34.396552" Importe="34.396552">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="34.396552" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="5.503448" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+		<cfdi:Concepto ClaveProdServ="50192303" NoIdentificacion="000750104009039" Cantidad="1" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="YOPLAIT BATI" ValorUnitario="34.60" Importe="34.60">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="34.6" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.000000" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+		<cfdi:Concepto ClaveProdServ="53131600" NoIdentificacion="000065024001190" Cantidad="1" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="AGUA COLONIA" ValorUnitario="42.241379" Importe="42.241379">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="42.241379" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="6.758621" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+		<cfdi:Concepto ClaveProdServ="53102400" NoIdentificacion="000750642404002" Cantidad="1" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="MR TIN" ValorUnitario="68.103448" Importe="68.103448">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="68.103448" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="10.896552" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+		<cfdi:Concepto ClaveProdServ="53102400" NoIdentificacion="000750642403991" Cantidad="1" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="MR CALCETA" ValorUnitario="68.103448" Importe="68.103448">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="68.103448" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="10.896552" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+		<cfdi:Concepto ClaveProdServ="53101800" NoIdentificacion="000890313707054" Cantidad="1" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="MP JOGGER" ValorUnitario="213.793103" Importe="213.793103">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="213.793103" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="34.206896" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+		<cfdi:Concepto ClaveProdServ="53101500" NoIdentificacion="000750643214804" Cantidad="1" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="MP PANTALON" ValorUnitario="213.793103" Importe="213.793103">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="213.793103" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="34.206896" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+		<cfdi:Concepto ClaveProdServ="53101800" NoIdentificacion="000740635403717" Cantidad="1" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="MP PLAYERA" ValorUnitario="58.62069" Importe="58.62069">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="58.62069" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="9.37931" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+		<cfdi:Concepto ClaveProdServ="53102300" NoIdentificacion="000750400471655" Cantidad="1" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="MR PLAYERA" ValorUnitario="107.758621" Importe="107.758621">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="107.758621" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="17.241379" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos TotalImpuestosTrasladados="129.09">
+		<cfdi:Traslados>
+			<cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+			<cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="129.09" />
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+	<cfdi:Complemento>
+		<tfd:TimbreFiscalDigital
+			xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="617ABC93-B3CB-4BBD-A4C9-AFFCB07D9B17" FechaTimbrado="2019-09-02T10:02:42" RfcProvCertif="SST060807KU0" SelloCFD="Adz7hj8D3b2Oa5Q805QaZa7iH2sI4+Y+mrmjVjBffFtRVinlmcWcOM22SnargTkaF2kOmmbz/yfLPKUmoiMY3mmEHr63J4lXMnoG911j57EMwQGkjlD+lwNXRcrK580aPKUOMPRJMOgQB/p1z3+uSi90NPP56t6jcZnPtWKeP24SHgMhRXzZWFqZISsG9fl6uL0F+lnJEhpAhY3yH6e3W2HYz/LWSr30ccPSwyoZ9bScP2J/XE3zbMHIkWJD0jZgYMpjs9s3UPGCMOMtCqcEN/UMFDm4jddK5z0fe6EGt76fs3LU1T2WY9xBbChmp0XtTkm5ZqcfBq+5no+3FDDpwg==" NoCertificadoSAT="00001000000405179095" SelloSAT="hub1krPuAnzGogp0hSFdE7/Hue3ayxroqyUl4JUD/bOQs8lVuhBXyasm90jJLkvkX5UhyDfQUAIZvj0YWGuRt9d7cousiMsPZB6pecTzOcZBudlKUwoNt+nU87vm8oU8sBSAQCuE6RHvG5Xh5LeSxVjGY78/HzdELwBnb1iuQ4oXzeI3YnQSN2dyXFcFNUy4pZKn0hdl4wqMpI2hmC+m4TRVsmd5BgzJS9F8kEKidsHzpRvEMRA9egg4Al9W2vmzXE1dq4w2AXLaMg4vJ37gFWi9CmBRBTUp6kE9kXGvQ9DTkNiPmKDN4Bp2U3R67Fit6d50NWeZ31rix6EW0LU+bQ==" />
+		</cfdi:Complemento>
+	</cfdi:Comprobante>
